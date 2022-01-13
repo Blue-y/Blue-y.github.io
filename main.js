@@ -1,9 +1,8 @@
 
-let myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+let page= document.querySelector("html")
+page.addEventListener("click",Tip);
 
-document.querySelector("html").onclick=clickedf;
-function clickedf()
+function Tip()
 {
-	alert("clicked");
+	alert("别点！");
 }
